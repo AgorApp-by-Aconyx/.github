@@ -1,21 +1,38 @@
 ## Welcome to AgorApp 🦊⚖️
 
-### Executive Introduction & Elevator Pitch
+[elevator pitch]
+
+---
+
+### Overview
+
+[architecure]
+
+---
+
+### Services
+
+**Microservices**
+| Service | Repository | Role | Language | Framework / Library / Tools |
+| :--- | :---: |:---: | :---: | :--- |
+|**Aphrodite**| 🔗 | Web Client | Javascript, html + css | React, Vite |
+|**Hermes**| 🔗 | API Gateway | ? | ? |
+|**Hecate**| 🔗 | Authentication Service | Java | Spring Boot, Maven |
+|**Hephaestus**| 🔗 | Product Service | Java | Spring Boot, Maven |
+|**Artemis**| 🔗 | Web Scrapping Service | Python 3.12 | FastAPI, Beautiful Soup |
+|**Athena**| 🔗 | Basket Service | Python 3.12 | FastAPI |
 
 
-### Architectural Overview & System Design
+**Databases**
+| Database | Service | Database Management System | Host |
+| :--- | :--- | :---: | :---: |
+|**Crossroads**| Hecate's Database | PostgreSQL 17 / 18 | Supabase / Local |
+|**Forge**| Hephaestus' Database | PostgreSQL 17 / 18 | Supabase / Local |
+|**Amphora**| Athena's Database | PostgreSQL 17 / 18| Supabase / Local |
 
 
-### Microservices
-- Aphrodite (Web Client) - React, Vite, Javascript
-- Hermes (API Gateway) - TBD
-- Hecate (Authentication Service) - Spring Boot, Maven, Java
-  - Crossroads (Hecate's Database) - Supabase PostgreSQL 17, Local PostgreSQL 18
-- Hephaestus (Product Service) - Spring Boot, Maven, Java
-  - Forge (Hephaestus' Database) - Supabase PostgreSQL 17, Local PostgreSQL 18
-- Artemis (Web Scrapping Service) - FastAPI Python
-- Athena (Basket Service)
-  - Amphora (Athena's Database) - Supabase PostgreSQL 17, Local PostgreSQL 18
-
+---
 
 ### Developer Showcase / Portfolio Context
+
+[educational journey, to do next]

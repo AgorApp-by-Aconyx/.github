@@ -1,21 +1,21 @@
 ## Welcome to AgorApp 🦊⚖️
 
-#### Executive Introduction & Elevator Pitch
+### Executive Introduction & Elevator Pitch
 
 
-#### Architectural Overview & System Design
+### Architectural Overview & System Design
 
 
-#### Microservices Catalog / Repository Index
+### Microservices
 - Aphrodite (Web Client) - React, Vite, Javascript
-- Hermes (API Gateway)
-- Hecate (Authentication Service)
-- Hephaestus (Product Service)
-- Artemis (Web Scrapping Service)
+- Hermes (API Gateway) - TBD
+- Hecate (Authentication Service) - Spring Boot, Maven, Java
+  - Crossroads (Hecate's Database) - Supabase PostgreSQL 17, Local PostgreSQL 18
+- Hephaestus (Product Service) - Spring Boot, Maven, Java
+  - Forge (Hephaestus' Database) - Supabase PostgreSQL 17, Local PostgreSQL 18
+- Artemis (Web Scrapping Service) - FastAPI Python
 - Athena (Basket Service)
+  - Amphora (Athena's Database) - Supabase PostgreSQL 17, Local PostgreSQL 18
 
 
-#### Local Quickstart & Reproduction Guide
-
-
-#### Developer Showcase / Portfolio Context
+### Developer Showcase / Portfolio Context
